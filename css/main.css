@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.section {
+  background-image: url(../img/bg.png);
+  height: 100vh;
+  background-size: cover; }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.container__slogan {
+  border: 2px solid blue; }
+
+.container__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  width: 950px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  border: 2px solid green; }
+
+.container__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.content_img {
+  border: 1px solid tomato; }
+
+.content__description {
+  width: 250px; }
